@@ -39,7 +39,7 @@ A patient-centric secure Electronic Health Record (EHR) sharing system using Hyp
 
 ## Tech Stack
 
-### Phase 1 (MVP)
+### 1 Storing & Sharing System 
 - **Blockchain**: Hyperledger Fabric 2.5
 - **Smart Contracts**: Go 1.20+
 - **Backend API**: Node.js 16+ / Python 3.9+ (FastAPI)
@@ -48,7 +48,7 @@ A patient-centric secure Electronic Health Record (EHR) sharing system using Hyp
 - **Database**: CouchDB (world state), PostgreSQL (optional metadata)
 - **Encryption**: AES-256-GCM, RSA-2048, X.509 certificates
 
-### Phase 2 (Federated Learning)
+###  (Federated Learning)
 - **ML Frameworks**: PyTorch 2.1+ / TensorFlow 2.15+
 - **FL Algorithm**: FedAvg (Federated Averaging)
 - **Aggregation**: Python-based coordination service
@@ -256,9 +256,9 @@ npm run format
 - Use production-grade **certificate authority**
 - Implement **rate limiting** and DDoS protection
 
-## Phase 2: Federated Learning
+##: Federated Learning
 
-Coming soon - privacy-preserving machine learning across hospitals:
+ privacy-preserving machine learning across hospitals:
 
 - Local model training on encrypted data
 - Blockchain-verified model updates
